@@ -1,5 +1,6 @@
-Landing Page de Alta Performance
-Esta é uma Landing Page de conversão desenvolvida para o nicho de Marketing Digital e Gestão de Tráfego. O projeto foi construído com foco em performance extrema, SEO e design persuasivo para transformar visitantes em leads qualificados.
+# Landing Page de Alta Performance
+
+## Esta é uma Landing Page de conversão desenvolvida para o nicho de Marketing Digital e Gestão de Tráfego. O projeto foi construído com foco em performance extrema, SEO e design persuasivo para transformar visitantes em leads qualificados.
 
 🛠️ Tecnologias Utilizadas
 Next.js 15 (App Router): Para renderização rápida e otimização de SEO.
