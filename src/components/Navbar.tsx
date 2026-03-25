@@ -1,4 +1,5 @@
 import { data } from "@/data/data";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -8,6 +9,13 @@ export default function Navbar() {
           <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center font-bold text-white">F</div>
           <span className="text-xl font-bold tracking-tight text-white">Focus<span className="text-indigo-500">.</span></span>
         </div>
+
+        <Link 
+        href="/dashboard" 
+        className="hidden md:block px-6 py-2 border border-white/10 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-amber-500 hover:text-black transition-all"
+      >
+        Área do Cliente
+      </Link>
         
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
           <a href="#services" className="hover:text-white transition-colors">Serviços</a>

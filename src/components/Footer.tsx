@@ -1,4 +1,5 @@
 import { data } from "@/data/data";
+import Link from "next/link";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -35,6 +36,10 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+
+        <Link href="/links" className="text-slate-500 hover:text-amber-500 transition-colors">
+          Nossos Canais Oficiais
+        </Link>
         
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 uppercase tracking-widest">
           <p>© {year} Agência Focus - Todos os direitos reservados</p>
