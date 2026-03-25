@@ -11,9 +11,13 @@ export default function DashboardPage() {
 
   return (
     <div className="space-y-10">
-      <div>
-        <h1 className="text-3xl font-bold">Visão Geral de Performance</h1>
-        <p className="text-slate-400">Acompanhe seus resultados em tempo real.</p>
+      <div className="pl-12 lg:pl-0"> 
+        <h1 className="text-2xl md:text-3xl font-bold leading-tight">
+          Visão Geral de Performance
+        </h1>
+        <p className="text-slate-400 text-sm md:text-base italic">
+          Acompanhe seus resultados em tempo real.
+        </p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">

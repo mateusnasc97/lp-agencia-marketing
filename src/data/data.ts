@@ -28,7 +28,7 @@ export const data = {
     },
     Contact: {
         email: "[EMAIL_ADDRESS]",
-        whatsapp: "5562993258492",
+        whatsapp: "5562981619496",
         address: "Local, LO - Atendimento Local",  
     }
 }
